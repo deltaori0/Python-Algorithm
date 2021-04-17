@@ -16,3 +16,7 @@ for i in range(n):
 
 # print("area", area)
 # print("shark", shark_pos)
+
+while True:
+    for row in area:
+        
