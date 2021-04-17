@@ -21,7 +21,6 @@ def dfs(x, y):
         dfs(x+1, y) # 하
         dfs(x, y+1) # 우
         return True
-    # 이미 방문한 노드라면
     return False
 
 # 모든 노드(위치)에 대해서 음료수 채우기
