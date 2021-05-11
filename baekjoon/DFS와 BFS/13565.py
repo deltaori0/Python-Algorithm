@@ -22,7 +22,7 @@ def bfs(start):
             ny = y + dy[i]
 
             if nx < 0 or nx >= m: continue
-            if ny < 0 or ny <= n: continue
+            if ny < 0 or ny >= n: continue
             if a[nx][ny] == 1: continue
             if chk[nx][ny]: continue
 
